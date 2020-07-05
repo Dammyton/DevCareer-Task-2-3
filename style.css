@@ -1,6 +1,6 @@
 .box-1{
-    background: #05b993;
-    /* background: #05B993 url(https://devcareer.io/images/bg.svg) right; */
+    /* background: #05b993; */
+    background: #05B993 url(https://devcareer.io/images/bg.svg) right;
     height: 100vh !important;
     padding-top: 7%;
 }
@@ -25,6 +25,9 @@ img {
     font-weight: bold;
     font-size: 35px;
 }
+.mname{
+    display: none;
+}
 .category .item{
     color:#fff;
     background: #556270;
@@ -34,6 +37,9 @@ img {
 
 .line{
     border: 2px solid #05b993;;
+}
+.line2{
+    display:none
 }
 div.about p{
     color: #777;
@@ -85,8 +91,8 @@ button.mode {
     border: none;
 }
 .dark-mode .box-1{
-    background: #05b993;
-    /* background: #05B993 url(https://devcareer.io/images/bg.svg) right; */
+    /* background: #05b993; */
+    background: #05B993 url(https://devcareer.io/images/bg.svg) right;
     height: 100vh !important;
     padding-top: 7%;
 }
@@ -155,4 +161,75 @@ button.mode {
 }
 .dark-mode .top-nav a{
     color: #fff !important;
+}
+.dark-mode .mname{
+    display: none;
+}
+.dark-mode .line2{
+    display:none
+}
+
+
+/* Mobile responsiveness */
+@media (max-width: 780px){
+    .box-1{
+        /* background: #05b993; */
+        background: #05B993 url(https://devcareer.io/images/bg.svg) right;
+        height: 100% !important;
+        padding-top: 0;
+        padding-bottom: 7%;
+    }
+    img {
+        width: 100%;
+        border: 5px solid white;
+        border-radius: 1px;
+    }
+    .fit{
+        margin-right: -30px;
+        margin-left: -30px;
+    }
+    .mname{
+        display: inline;
+    }
+    .top-nav{
+        text-align: center !important;
+    }
+    .name{
+        display:none;
+    }
+    .line2{
+        display: block;
+        border: 1px solid #888;
+        margin-bottom: 0;
+    }
+    .dark-mode .box-1{
+        /* background: #05b993; */
+        background: #05B993 url(https://devcareer.io/images/bg.svg) right;
+        height: 100% !important;
+        padding-top: 0;
+        padding-bottom: 7%;
+    }
+    .dark-mode img {
+        width: 100%;
+        border: 5px solid white;
+        border-radius: 1px;
+    }
+    .dark-mode .fit{
+        margin-right: -30px;
+        margin-left: -30px;
+    }
+    .dark-mode .mname{
+        display: inline;
+    }
+    .dark-mode .top-nav{
+        text-align: center !important;
+    }
+    .dark-mode .name{
+        display:none;
+    }
+    .dark-mode .line2{
+        display: block;
+        border: 1px solid #888;
+        margin-bottom: 0;
+    }
 }
