@@ -1,0 +1,158 @@
+.box-1{
+    background: #05b993;
+    /* background: #05B993 url(https://devcareer.io/images/bg.svg) right; */
+    height: 100vh !important;
+    padding-top: 7%;
+}
+img {
+    width: 70%;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.btn-mail{
+    background: #fff;
+    color: #000;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.btn:hover{
+    color:#fff;
+    background: #222;
+}
+.name{
+    font-family: 'Circular';
+    color: #222222;
+    font-weight: bold;
+    font-size: 35px;
+}
+.category .item{
+    color:#fff;
+    background: #556270;
+    padding:5px 20px 5px 5px;
+    font-size: 14px;
+}
+
+.line{
+    border: 2px solid #05b993;;
+}
+div.about p{
+    color: #777;
+    font-family: 'Circular';
+    font-size: 17px;
+    font-weight: 300;
+}
+.find-me h3{
+    font-family: 'Circular';
+    color: #222222;
+    font-weight: 600;
+    font-size: 24px;
+}
+.social-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 5px 0 0;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    text-align: center;
+}
+a:hover{
+    text-decoration: none;
+}
+.top-nav{
+    font-size: 14px;
+    font-weight: 400;
+}
+button.mode {    
+    color: #000 !important;
+    background: transparent;
+    border: none;
+}
+
+
+/* Dark mode */
+.dark-mode {
+    background-color: black;
+    color: white !important;
+  }
+.dark-mode button.mode {    
+    color: #fff !important;
+    background: transparent;
+    border: none;
+}
+.dark-mode .box-1{
+    background: #05b993;
+    /* background: #05B993 url(https://devcareer.io/images/bg.svg) right; */
+    height: 100vh !important;
+    padding-top: 7%;
+}
+.dark-mode img {
+    width: 70%;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.dark-mode .btn-mail{
+    background: #222;
+    color: #fff;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.dark-mode .btn:hover{
+    color:#222;
+    background: #fff;
+}
+.dark-mode .name{
+    font-family: 'Circular';
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+}
+.dark-mode .category .item{
+    color:#fff;
+    background: #556270;
+    padding:5px 20px 5px 5px;
+    font-size: 14px;
+}
+
+.dark-mode .line{
+    border: 2px solid #05b993;;
+}
+.dark-mode div.about p{
+    color: #fff;
+    font-family: 'Circular';
+    font-size: 17px;
+    font-weight: 300;
+}
+.dark-mode .find-me h3{
+    font-family: 'Circular';
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+}
+.dark-mode .social-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 5px 0 0;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    text-align: center;
+}
+.dark-mode a:hover{
+    text-decoration: none;
+}
+.dark-mode .top-nav{
+    font-size: 14px;
+    font-weight: 400;
+}
+.dark-mode .top-nav a{
+    color: #fff !important;
+}
