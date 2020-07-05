@@ -234,6 +234,7 @@ button.mode {
     }
 }
 
+/* Transitions */
 @keyframes Slide_left {
     0% {
       transform: translateX(400px);
